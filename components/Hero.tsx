@@ -9,7 +9,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className='pb-20 pt-24'>
+    <div className='pb-20 pt-24 flex flex-col w-full items-center'>
         <div>
             <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='white'/>
             <Spotlight className='top-10 left-full h-[80vh] w-[50vw]' fill='purple'/>
@@ -18,40 +18,41 @@ const Hero = () => {
 
         <div className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0">
             {/* Radial gradient for the container to give a faded look */}
-            <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
-            </div>
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
+        </div>
 
-            <div className='flex flex-col lg:flex-row lg:flex-row-reverse relative z-10 items-center'>
-            <Image src={image} alt='Hero Image' className='max-w-[300px] rounded-[20px] border border-slate-500 '/>
+        <div className='flex flex-col lg:flex-row lg:flex-row-reverse relative z-10 items-center  justify-center max-w-[1024px]'>
 
-<div className='flex relative my-4 z-10'>
+            <Image src={image} alt='Hero Image' className='max-w-[300px] rounded-[20px] border border-slate-500 mb-4'/>
 
-                <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-                    <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>work with the most trusted</h2>
+            <div className='flex relative my-4 z-10 flex-col'>
+
+                <div className='flex flex-col items-center justify-center'>
+
 
                     <TextGenerateEffect 
-                        className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                        words="Bridging the Gap Between Business and Technology"
+                        className='text-center text-[35px] md:text-4xl lg:text-5xl'
+                        words="Bridging the Gap Between Business & Technology"
                         />
 
-                        <div className='flex items-center mb-4'>
+                    <div className='flex items-center mb-4'>
                         <p className='text-center lg:tracking-wider text-sm lg:text-lg xlg:text-2xl mb-1'>
-                            Hello, I&apos;m Joe, a Web Developer based out of Dallas, TX
+                            Hi, I&apos;m Joe, a Web Developer based out of Dallas, TX
                         </p>
                         <GiTexas className='text-[18px] md:text-[25px] ml-2'
                         size='' />
-                        </div>
+                    </div>
 
-                        <div className='flex gap-8'>
-                        <NormalButton
-                        title="View Work" />
-                        <ShimmerButton 
-                        title ="Contact"/>
-                        </div>
+                    <div className='flex gap-8'>
+                    <NormalButton
+                    title="View Work" />
+                    <ShimmerButton 
+                    title ="Contact"/>
+                    </div>
                 </div>
             </div>
 
-            </div>
+        </div>
 
             
     </div>
