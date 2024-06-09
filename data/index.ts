@@ -23,8 +23,8 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
+      img: "/bento1.svg",
+      // spareImg: "/b4.svg",
     },
     {
       id: 3,
