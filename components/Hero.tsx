@@ -25,7 +25,7 @@ const Hero = () => {
 
         <Image src={image} alt='Hero Image' priority={true} className='max-w-[300px] rounded-[20px] border border-slate-500 mb-4 md:block hidden'/>
 
-            <div className='flex relative my-4 z-10 flex-col'>
+            <div className='flex relative my-4 z-10 flex-col px-8'>
 
                 <div className='flex flex-col items-center justify-center'>
 
