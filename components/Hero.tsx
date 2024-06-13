@@ -49,10 +49,12 @@ const Hero = () => {
                         />
                         </p>
                     <div className='flex gap-8'>
-                    <NormalButton
-                    title="View Work" />
+                    {/* <NormalButton
+                    title="View Work" /> */}
+
+                    <a href='#contact'>
                     <ShimmerButton 
-                    title ="Contact"/>
+                    title ="Contact"/></a>
                     </div>
                 </div>
             </div>

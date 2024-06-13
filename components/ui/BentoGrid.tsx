@@ -83,7 +83,7 @@ export const BentoGridItem = ({
         </div>
         {id === 6 && (
           <BackgroundGradientAnimation>
-            <div className="absolute z-50 flex items-center justify-center text-center text-white font-bold" />
+            {/* <div className="absolute z-50 flex items-center justify-center text-center text-white font-bold" /> */}
           </BackgroundGradientAnimation>
         )}
 
@@ -123,7 +123,7 @@ export const BentoGridItem = ({
 
         {id === 6 && (
           <div className="flex flex-col items-center relative text-center">
-            <div className={`absolute mt-1 items-center text-center`}>
+            <div id="#resume" className={`absolute mt-1 items-center text-center`}>
 
             <ResumeButton 
             

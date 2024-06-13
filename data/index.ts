@@ -1,8 +1,8 @@
 export const navItems = [
-    { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
-    // { name: "Contact", link: "#contact" },
+    // { name: "About", link: "#about" },
+    // { name: "Projects", link: "#projects" },
+    { name: "Resume", link: "#resume" },
+    { name: "Contact", link: "#contact" },
   ];
   
   export const gridItems = [
@@ -24,7 +24,7 @@ export const navItems = [
       imgClassName: "",
       titleClassName: "justify-start",
       img: "/next_portfolio/grid.svg",
-      spareImg: "/next_portfolio/bento3.svg",
+      spareImg: "/bento3.svg",
     },
     {
       id: 3,
@@ -209,13 +209,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      url:'https://github.com/joeoverflowcode'
     },
-    {
-      id: 2,
-      img: "/twit.svg",
-    },
+    // {
+    //   id: 2,
+    //   img: "/twit.svg",
+    //   url:''
+    // },
     {
       id: 3,
       img: "/link.svg",
+      url: 'https://www.linkedin.com/in/joe-aguado-3a455311b/'
     },
   ];
