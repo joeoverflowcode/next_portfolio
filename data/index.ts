@@ -24,7 +24,7 @@ export const navItems = [
       imgClassName: "",
       titleClassName: "justify-start",
       img: "/next_portfolio/grid.svg",
-      spareImg: "/bento3.svg",
+      spareImg: "/next_portfolio/bento3.svg",
     },
     {
       id: 3,
