@@ -23,7 +23,7 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/grid.svg",
+      img: "grid.svg",
       spareImg: "bento3.svg",
     },
     {
@@ -33,7 +33,7 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
-      img: "/grid.svg",
+      img: "grid.svg",
       // spareImg: "/grid.svg",
     },
     // {
@@ -55,8 +55,8 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
-      spareImg: "/grid.svg",
+      img: "b5.svg",
+      spareImg: "grid.svg",
     },
     {
       id: 6,
