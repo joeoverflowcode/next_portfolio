@@ -208,7 +208,7 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
+      img: "git.svg",
       url:'https://github.com/joeoverflowcode'
     },
     // {
@@ -218,7 +218,7 @@ export const navItems = [
     // },
     {
       id: 3,
-      img: "/link.svg",
+      img: "link.svg",
       url: 'https://www.linkedin.com/in/joe-aguado-3a455311b/'
     },
   ];
