@@ -60,7 +60,7 @@ export const BentoGridItem = ({
       }}
     >
 
-      <div className={`${id === 6 && 'flex justify-center flex-col items-center'} h-full`}>
+      <div className={`${id === 6 && 'flex flex-col items-center'} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
             <img
@@ -83,7 +83,7 @@ export const BentoGridItem = ({
         </div>
         {id === 6 && (
           <BackgroundGradientAnimation>
-            {/* <div className="absolute z-50 flex items-center justify-center text-center text-white font-bold" /> */}
+           {/* <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div> */}
           </BackgroundGradientAnimation>
         )}
 
@@ -122,8 +122,8 @@ export const BentoGridItem = ({
         )}
 
         {id === 6 && (
-          <div className="flex flex-col items-center relative text-center">
-            <div id="#resume" className={`absolute mt-1 items-center text-center`}>
+          <div className="flex flex-col items-center relative">
+            <div id="#resume" className={`absolute mt-1`}>
 
             <ResumeButton 
             

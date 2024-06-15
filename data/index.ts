@@ -23,8 +23,8 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/next_portfolio/grid.svg",
-      spareImg: "/next_portfolio/bento3.svg",
+      img: "/grid.svg",
+      spareImg: "/bento3.svg",
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
-      img: "/next_portfolio/grid.svg",
+      img: "/grid.svg",
       // spareImg: "/grid.svg",
     },
     // {
@@ -55,8 +55,8 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/next_portfolio/b5.svg",
-      spareImg: "/next_portfolio/grid.svg",
+      img: "/b5.svg",
+      spareImg: "/grid.svg",
     },
     {
       id: 6,
@@ -67,7 +67,7 @@ export const navItems = [
       className: "md:col-span-3 md:row-span-2",
 
       imgClassName: "",
-      titleClassName: "justify-center items-center max-w-60 text-center",
+      titleClassName: "top-5 max-w-60 text-center",
       img: "",
       spareImg: "",
     },
@@ -208,7 +208,7 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
-      img: "/next_portfolio/git.svg",
+      img: "/git.svg",
       url:'https://github.com/joeoverflowcode'
     },
     // {
@@ -218,7 +218,7 @@ export const navItems = [
     // },
     {
       id: 3,
-      img: "/next_portfolio/link.svg",
+      img: "/link.svg",
       url: 'https://www.linkedin.com/in/joe-aguado-3a455311b/'
     },
   ];
