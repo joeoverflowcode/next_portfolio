@@ -49,8 +49,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "What's New?",
-      description: "Currently working on an AI project",
+      title: "Consulting Services",
+      description: "Let's talk tech...",
       // className: "md:col-span-3 md:row-span-2",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 w-60",

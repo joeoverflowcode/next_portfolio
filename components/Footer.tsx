@@ -11,7 +11,7 @@ const Footer = () => {
             <h1 className='heading lg:max-w-[70vw]'>
                 Ready to add a highly motivated member to <span className='text-blue-300'>your</span> team?
             </h1>
-            <p className='text-white-200 md:mt-10 my-5 text-center'>Let's work together! <br/>Contact me today and let's discuss how I can increase the value in your tech team.
+            <p className='text-white-200 md:mt-10 my-5 text-center'>Let's work together! <br/>Contact me today and let's discuss how I can increase the value in your next tech project.
             </p>
 
             <a href='mailto:aguado.joe@gmail.com?subject=Work Inquiry'>
