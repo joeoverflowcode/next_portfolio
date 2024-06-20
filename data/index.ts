@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Consulting Services",
+      title: "Consulting",
       description: "Let's talk tech...",
       // className: "md:col-span-3 md:row-span-2",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
