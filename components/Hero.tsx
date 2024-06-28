@@ -41,7 +41,7 @@ const Hero = () => {
             <Image src={image} 	priority={true} alt='Hero Image' className='max-w-[220px] rounded-[20px] border border-slate-500 mb-4 md:hidden block'/>
 
                  <p style={{display:'inline'}} className='text-center lg:tracking-wider lg:text-lg xlg:text-2xl mb-4'>
-                            Hi, I&apos;m Joe, a Web Developer based out of  
+                            I&apos;m Joe, a Web Developer based out of  
                             Dallas, TX
                             <GiTexas 
                             style={{verticalAlign:'middle', display: 'inline'}}
