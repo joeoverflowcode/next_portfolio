@@ -88,7 +88,7 @@ export const navItems = [
       title: "Bio Behavioral",
       des: "An MVP done for a clinic based outside of New York City. The project required logo redesign, data handling, screen responsiveness and deployment solutions.",
       img: "p6.svg",
-      iconLists: ["re.svg", "js.svg", "tail.svg", ],
+      iconLists: ["re.svg", "js.svg", "tail.svg", 'ca.svg' ],
       link: "https://joeoverflowcode.github.io/bio_behavioral_institute/",
     },    
     {
@@ -96,15 +96,15 @@ export const navItems = [
       title: "Texas Coding Club",
       des: "A blog co-founded and designed with fellow developer Christine Hoang. Inspired by western themes, the blog shares tech insights from industry professionals in the North Texas area. ",
       img: "p7.svg",
-      iconLists: ["re.svg", "js.svg", "tail.svg", ],
+      iconLists: ["re.svg", "js.svg", 'ca.svg', 'f.svg', "tail.svg",],
       link: "https://texascodingclub.com/",
     },
     {
       id: 4,
       title: "React Portfolio",
-      des: "My first portfolio project using two-sided cards that flip to showcase my early projects",
+      des: "My first portfolio project using two-sided cards that flip to showcase my early works.",
       img: "p8.svg",
-      iconLists: ["re.svg", "js.svg", "tail.svg",],
+      iconLists: ["re.svg", "js.svg", 'ca.svg', "tail.svg",],
       link: "https://joeoverflowcode.github.io/zportfolio/",
     },
 

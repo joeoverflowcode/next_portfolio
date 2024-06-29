@@ -2,6 +2,7 @@ import React from 'react'
 import NormalButton from './ui/NormalButton'
 import { FaLocationArrow } from "react-icons/fa";
 import { socialMedia } from '@/data';
+import ShimmerButton from './ui/ShimmerButton';
 
 
 const Footer = () => {
@@ -15,10 +16,15 @@ const Footer = () => {
             </p>
 
             <a href='mailto:aguado.joe@gmail.com?subject=Work Inquiry'>
-                <NormalButton
+                {/* <NormalButton
                 title='Email'
                 position='right'
                 icon={<FaLocationArrow />}
+                /> */}
+                <ShimmerButton 
+                title='Email'
+                icon={<FaLocationArrow />}
+                position='right'
                 />
             </a>
         </div>

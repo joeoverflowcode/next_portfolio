@@ -49,9 +49,10 @@ const Hero = () => {
                         />
                         </p>
                     <div className='flex gap-8'>
-                    {/* <NormalButton
-                    title="View Work" /> */}
-
+                    <a href='#projects'>
+                    <NormalButton
+                    title="View Work" />
+                    </a>
                     <a href='#contact'>
                     <ShimmerButton 
                     title ="Contact"/></a>

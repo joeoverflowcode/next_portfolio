@@ -6,11 +6,11 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 
 const RecentProjects = () => {
   return (
-    <div id='projects' className='pt-40 '>
+    <div id='projects' className='pt-20 '>
         <h1 className="heading">Some of my recent {' '} 
             <span className='text-blue-300'>projects</span>
         </h1>
-        <div className='flex flex-wrap justify-center gap-x-24 '>
+        <div className=' flex flex-wrap justify-center gap-x-24 '>
             {projects.map(({ id, title, des, img, iconLists, link }) => (
                 <div key={id} className='sm:h-[41rem] h-[41rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
                     
