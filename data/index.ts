@@ -102,7 +102,7 @@ export const navItems = [
     {
       id: 4,
       title: "React Portfolio",
-      des: "My first portfolio using cards that flip to showcase my early projects",
+      des: "My first portfolio project using two-sided cards that flip to showcase my early projects",
       img: "p8.svg",
       iconLists: ["re.svg", "js.svg", "tail.svg",],
       link: "https://joeoverflowcode.github.io/zportfolio/",

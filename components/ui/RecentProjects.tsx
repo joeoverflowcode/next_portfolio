@@ -10,7 +10,7 @@ const RecentProjects = () => {
         <h1 className="heading">Some of my recent {' '} 
             <span className='text-blue-300'>projects</span>
         </h1>
-        <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 '>
+        <div className='flex flex-wrap justify-center gap-x-24 '>
             {projects.map(({ id, title, des, img, iconLists, link }) => (
                 <div key={id} className='sm:h-[41rem] h-[41rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
                     
@@ -22,7 +22,7 @@ const RecentProjects = () => {
                             <img 
                                 src={img} 
                                 alt={title}
-                                className='z-10 absolute -bottom-10 sm:-bottom-8 px-6 overflow-hidden ' />
+                                className='z-10 absolute bottom-0 sm:-bottom-8 px-6 overflow-hidden ' />
                         </div>
                         <h1 className='font-bold lg:text-xl md:text-xl text-base line-clamp-1'>
                             {title}
@@ -41,9 +41,9 @@ const RecentProjects = () => {
                                 ))}
                             </div>
                             <div className='flex justify-center items-center'>
-                                <p className='flex md:text-xl text-base text-blue-300'>Check Live Site</p>
+                                <p className='flex md:text-xl text-lg text-blue-300'>Check Live Site</p>
                                 <MdOutlineArrowOutward 
-                                    className='ms-3
+                                    className='ms-1
                                     text-blue-300'
                                     size={28}
                                 />
