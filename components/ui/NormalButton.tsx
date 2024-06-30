@@ -4,9 +4,9 @@ const NormalButton = ({
   title, 
   icon,
   position, }: { 
-    title : string;
-    icon : React.ReactNode;
-    position : string;
+    title? : string;
+    icon? : React.ReactNode;
+    position? : string;
    } ) => {
 
     return (
