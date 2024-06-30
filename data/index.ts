@@ -20,7 +20,7 @@ export const navItems = [
     {
       id: 2,
       title: "Customer Satisfaction",
-      description: "Prioritizing and Exceeding",
+      description: "My priority is ",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -30,7 +30,7 @@ export const navItems = [
     {
       id: 3,
       title: "My Tech Stack",
-      description: "Consistently trying to improve",
+      description: "Consistently improving",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -51,7 +51,7 @@ export const navItems = [
     {
       id: 5,
       title: "Consulting",
-      description: "Let's talk tech...",
+      description: "Let's talk ",
       // className: "md:col-span-3 md:row-span-2",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 w-60",
