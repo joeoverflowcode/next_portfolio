@@ -1,5 +1,5 @@
 export const navItems = [
-    // { name: "About", link: "#about" },
+    { name: "Home", link: "#home" },
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Contact", link: "#contact" },
@@ -51,7 +51,7 @@ export const navItems = [
     {
       id: 5,
       title: "Consulting",
-      description: "Let's talk ",
+      description: "Let's talk tech",
       // className: "md:col-span-3 md:row-span-2",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 w-60",

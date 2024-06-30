@@ -9,10 +9,18 @@ const Footer = () => {
   return (
     <footer className='w-full pt-20 pb-10' id='contact'>
         <div className='flex flex-col items-center'>
-            <h1 className='heading lg:max-w-[70vw]'>
-                Ready to add a highly motivated member to <span className='text-blue-300'>your</span> team?
-            </h1>
-            <p className='text-white-200 md:mt-10 my-5 text-center'>Let's work together! <br/>Contact me today and let's discuss how I can increase the value in your next tech project.
+            {/* <h1 className='heading lg:max-w-[70vw]'>
+                Ready to add a highly motivated member to your team? <span className='text-blue-300'>Contact</span> me today.
+            </h1> */}
+
+            <h1 className="heading mt-5 text-3xl text-white font-bold text-center">Ready to add a highly motivated member to your team? {' '}  <br className='sm:hidden block'/> 
+        <span className='relative inline-block pt-3'>
+        <span className='text-blue-300'>Contact {' '}</span>
+        <img src='path.png' alt='path' className='w-[136px] h-[20px] absolute -bottom-5 z-0 '/> 
+        me today.
+    </span>
+</h1>
+            <p className='text-white-200 mt-10 my-5 text-center'> Let's discuss how I can increase the value in your next tech project.
             </p>
 
             <a href='mailto:aguado.joe@gmail.com?subject=Work Inquiry'>
