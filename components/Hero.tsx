@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
         </div>
 
-        <div className='flex flex-col flex-col-reverse md:flex-row md:flex-row-reverse relative z-10 items-center  justify-center max-w-[1024px]'>
+        <div className='flex flex-col flex-col-reverse md:flex-row md:flex-row-reverse relative z-10 items-center justify-center max-w-[1024px] md:mr-10'>
 
         <Image src={image} alt='Hero Image' priority={true} className='max-w-[300px] rounded-[20px] border border-slate-500 mb-4 md:block hidden'/>
 
