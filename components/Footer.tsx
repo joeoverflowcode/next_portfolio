@@ -13,10 +13,10 @@ const Footer = () => {
                 Ready to add a highly motivated member to your team? <span className='text-blue-300'>Contact</span> me today.
             </h1> */}
 
-            <h1 className="heading mt-5 text-3xl text-white font-bold text-center">Ready to add a highly motivated member to your team? {' '}  <br className='sm:hidden block'/> 
+            <h1 className="heading mt-5 text-3xl text-white font-bold text-center">Ready to add a highly motivated member to your team? {' '}  <br /> 
         <span className='relative inline-block pt-3'>
         <span className='text-blue-300'>Contact {' '}</span>
-        <img src='path.png' alt='path' className='w-[180px] h-[20px] absolute -bottom-5 z-0 '/> 
+        <img src='path.png' alt='path' className='w-[140px] h-[20px] absolute -bottom-5 z-0 '/> 
         me today.
     </span>
 </h1>
