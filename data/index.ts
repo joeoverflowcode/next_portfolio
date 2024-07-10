@@ -9,11 +9,11 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "Technical Solutions for Business Needs",
+      title: "Delivering Technical Solutions for Business Needs",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 ",
       imgClassName: "flex flex-col",
-      titleClassName: "justify-start",
+      titleClassName: "justify-start text-[20px]",
       // img: "/bento1.svg",
       spareImg: "",
     },
@@ -209,15 +209,15 @@ export const navItems = [
   
   export const socialMedia = [
     {
+      id: 2,
+      img: "home.svg",
+      url:'https://joeoverflowcode.github.io/'
+    },
+    {
       id: 1,
       img: "git.svg",
       url:'https://github.com/joeoverflowcode'
     },
-    // {
-    //   id: 2,
-    //   img: "/twit.svg",
-    //   url:''
-    // },
     {
       id: 3,
       img: "link.svg",

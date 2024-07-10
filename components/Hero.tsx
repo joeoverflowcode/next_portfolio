@@ -9,7 +9,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className='mt-8 md:mt-20 pb-20  flex flex-col w-full items-center'>
+    <div className='mt-20 md:mt-20 pb-20  flex flex-col w-full items-center'>
         <div>
             <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='white'/>
             <Spotlight className='top-10 left-full h-[80vh] w-[50vw]' fill='purple'/>
@@ -23,7 +23,7 @@ const Hero = () => {
 
         <div className='flex flex-col flex-col-reverse md:flex-row md:flex-row-reverse relative z-10 items-center justify-center max-w-[1024px] md:mr-10'>
 
-        <Image src={image} alt='Hero Image' priority={true} className='max-w-[300px] rounded-[20px] border border-slate-500 mb-4 md:block hidden'/>
+        <Image src={image} alt='Hero Image' priority={true} className='mt-10 max-w-[300px] rounded-[20px] border border-slate-500 mb-4 md:block hidden'/>
 
             <div className='flex relative my-4 z-10 flex-col px-8'>
 
