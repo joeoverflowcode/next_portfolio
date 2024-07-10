@@ -15,14 +15,14 @@ const RecentProjects = () => {
         <h1 className="heading mt-5 text-3xl text-white font-bold text-center">Some of my <br className='sm:hidden block'/>recent {' '} 
         <span className='relative inline-block'>
         <span className='text-blue-300'>projects</span>
-        <img src='path.png' alt='path' className='w-[186px] h-[20px] absolute -bottom-6 z-0 '/>
+        <img src='line.png' alt='path' className='w-[186px] h-[20px] absolute -bottom-6 z-0 '/>
     </span>
 </h1>
 
 
         <div className=' flex flex-wrap justify-center gap-x-24 '>
             {projects.map(({ id, title, des, img, iconLists, link }) => (
-                <div key={id} className='sm:h-[41rem] h-[41rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
+                <div key={id} className='sm:h-[41rem] h-[36rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
                     
                      <PinContainer title={link} href={link}>
                         <div className='relative flex items-center justify-center sm:w-[500px] w-[80vw] overflow-hidden md:h-[34vh] sm:h-[32vh] h-[27vh] mb-10'>
