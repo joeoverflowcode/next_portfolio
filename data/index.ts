@@ -80,7 +80,7 @@ export const navItems = [
       title: "Promptopia",
       des: "Discover and share foreign language AI-prompts. Create and save prompts that enable an AI of your choice to simulate a foreign language conversation.",
       img: "p5.svg",
-      iconLists: ["re.svg", "js.svg", "tail.svg", "a0.svg", "mdb.svg"],
+      iconLists: ["re.svg", "js.svg", "tail.svg", "na.svg", "mdb.svg"],
       link: "https://deploy-vercel-promptopia.vercel.app/",
     },
     {
