@@ -6,6 +6,7 @@ import Grid from "@/components/ui/Grid";
 import { navItems } from "@/data";
 import Footer from "@/components/Footer"
 import RecentProjects from "@/components/ui/RecentProjects";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        <Skills />
         <Footer />
       </div>
     </main>

@@ -2,6 +2,7 @@ export const navItems = [
     { name: "Home", link: "#home" },
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
+    {name: "Skills", link: "#skills"},
     { name: "Contact", link: "#contact" },
     
   ];
@@ -179,30 +180,30 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Frontend Developer",
+      desc: "Experienced with using HTML, CSS, Tailwind, React and various UI/UX Libraries",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Server and API Routing",
+      desc: "Primarily writing routes with Express.js and using Next.js for client and server side components",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      id: 4,
+      title: "Backend Engineer",
+      desc: "Building models, tables, relationship schema using PostgresSQL, AppWrite and MongoDB",
+      className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
+      id: 3,
+      title: "Design",
+      desc: "Consistently using tools such as Canva, Figma and Notion in order to create modern eye-catching designs",
+      className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp4.svg",
     },
   ];
