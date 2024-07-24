@@ -183,28 +183,28 @@ export const navItems = [
       title: "Frontend Developer",
       desc: "Experienced with using HTML, CSS, Tailwind, React and various UI/UX Libraries",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "exp1.svg",
     },
     {
       id: 2,
       title: "Server and API Routing",
       desc: "Primarily writing routes with Express.js and using Next.js for client and server side components",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      thumbnail: "exp2.svg",
     },
     {
       id: 4,
       title: "Backend Engineer",
       desc: "Building models, tables, relationship schema using PostgresSQL, AppWrite and MongoDB",
       className: "md:col-span-2",
-      thumbnail: "/exp3.svg",
+      thumbnail: "exp3.svg",
     },
     {
       id: 3,
       title: "Design",
       desc: "Consistently using tools such as Canva, Figma and Notion in order to create modern eye-catching designs",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp4.svg",
+      thumbnail: "exp4.svg",
     },
   ];
   
