@@ -20,8 +20,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Customer Satisfaction",
-      description: "My priority is ",
+      title: "Client's Needs First",
+      description: "I prioritize my ",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -51,8 +51,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Consulting",
-      description: "Let's talk tech",
+      title: "Consulting Available",
+      description: "Let's talk tech!",
       // className: "md:col-span-3 md:row-span-2",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 w-60",
@@ -188,13 +188,13 @@ export const navItems = [
     {
       id: 2,
       title: "Server and API Routing",
-      desc: "Primarily writing routes with Express.js and using Next.js for client and server side components",
+      desc: "Creating routes with Express.js and using Next.js for client and server side components",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "exp2.svg",
     },
     {
       id: 4,
-      title: "Backend Engineer",
+      title: "Backend Developer",
       desc: "Building models, tables, relationship schema using PostgresSQL, AppWrite and MongoDB",
       className: "md:col-span-2",
       thumbnail: "exp3.svg",
@@ -202,7 +202,7 @@ export const navItems = [
     {
       id: 3,
       title: "Design",
-      desc: "Consistently using tools such as Canva, Figma and Notion in order to create modern eye-catching designs",
+      desc: "Using tools such as Canva, Figma and Notion in order to create eye-catching content",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "exp4.svg",
     },
